@@ -13,7 +13,7 @@ public class SwaggerConfig {
     public OpenAPI openAPI(){
         return new OpenAPI().info(new Info()
                         .title("ToDo List API")
-                        .description("API to ToDo list app developed by Mithilesh Shah")
+                        .description("API for ToDo list app developed by Mithilesh Shah")
                         .version("1.0.0")
                         .contact(new Contact().name("Mithilesh Shah").email("mithileshkshah@gmail.com")));
     }
