@@ -46,7 +46,7 @@ public class ToDoController {
     }
 
     @DeleteMapping("/{id}")
-    @Operation(summary = "Delete ToDo")
+    @Operation(summary = "Delete ToDo List")
     public ResponseEntity<ApiResponse> deleteTodo(@PathVariable("id") String id){
        return new ResponseEntity<>(new ApiResponse("ToDo deleted successfully",true),HttpStatus.OK);
     }
